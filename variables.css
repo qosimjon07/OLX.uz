@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #002f34;
+    --secondary-color: #23e5db;
+    --text-color: #ffffff;
+    --content-width: 1077px;
+
+    /* Header */
+    --header-height: 71px;
+}

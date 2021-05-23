@@ -1,0 +1,98 @@
+header {
+    background-color: var(--primary-color);
+    height: var(--header-height);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+header div.container {
+    display: flex;
+    align-items: center;
+    width: var(--content-width);
+    justify-content: space-between;
+    
+}
+
+/* TITLE */
+.title svg {
+    width: 71px;
+    height: 41px;
+}
+
+/* SECTION */
+header .rhs {
+    display: flex;
+    align-items: center;
+}
+
+ul.langs {
+    display: flex;
+    color: var(--text-color);
+    font-size: 13px;
+}
+
+.langs li.seperator {
+    margin: 0 1rem;
+}
+
+.langs .lang {
+    cursor: pointer;
+    position: relative;
+}
+
+.langs .lang::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background-color: var(--text-color);
+    transition: .37s;
+}
+
+.langs .lang:hover::before {
+    width: 100%;
+
+}
+
+header .favourite {
+    color: var(--text-color);
+    font-size: 22px;
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+.profile {
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+
+}
+
+.profile .text {
+    margin-left: 0.5rem;
+    font-size: 13px;
+}
+
+button.postnewlink {
+    margin-left: 2rem;
+    height: 46px;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--primary-color);
+    border-radius: 5px;
+    transition: 0.37s;
+    background-color: var(--text-color);
+    border: 3px solid var(--text-color);
+}
+
+button.postnewlink:hover {
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
