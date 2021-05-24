@@ -1,0 +1,224 @@
+.header {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(239, 243, 242);
+}
+.box1 {
+    width: 1030px;
+    height: 1340px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.page {
+    width: 246px;
+    height: 320px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px black solid;
+    background-color: white;
+
+    display: flex;
+    padding: 15px;
+    border: none;
+
+    flex-direction: column;
+}
+.thing {
+    width: 100%;
+    margin: 10px 0; 
+    overflow: hidden;
+    height: 2.5rem;
+    margin-bottom: 40px;
+}
+.thing:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+   
+}
+.job {
+    font-size: 12px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.cost {
+font-weight: 600;    
+font-size: 18px;
+}
+.icon-x {
+    font-size: 1.3rem;
+}
+#box-tex {
+    display: block;
+    position: relative;
+    padding: 40px 0px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(239, 243, 242);
+}
+.bottom-hs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-hs i {
+    cursor: pointer;
+}
+
+.page-image {
+    width: 100%;
+    height: 140px;
+    cursor: pointer;
+}
+
+.button-section {
+    box-sizing: border-box;
+}
+
+.next {
+        
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(239, 243, 242);
+    padding: 20px 0 50px 0;
+}
+.button {
+
+    border: black 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+
+    padding: 8px 35px;
+    transition: 0.1s;
+} 
+.button:hover {
+    border: black 4px solid;
+    padding: 6px 33px;
+} 
+.color {
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    background-color: #002f34;
+}
+.color2 {
+    width: 900px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.olx {
+    color: #fff;
+    font-size: 20px;
+    padding: 0px 80px;
+}
+.button1 {
+    background-color: #fff;
+    color: #002f34;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.29;
+    padding: 11px 35px;
+    display: inline-flex;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.button1:hover {
+    border: 5px white solid;
+    padding: 7px 31px;
+    background-color: #002f34;
+    color: #fff;
+}
+.reference-olx {
+    background-color: #cbf7ee;
+    display: flex;
+    justify-content: center;
+}
+.reference {
+    background-color: #cbf7ee;
+    display: flex;
+    justify-content: center;
+}
+
+.ollll {
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
+}
+.text-olx {
+    font-size: 1rem;
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+#page-yellow {
+    position: relative;
+    left: 0px;
+    top: 80px;
+    display: block;
+}
+#yellow-text {
+    position: relative;
+    top: 90px;
+    left: 0px;
+}
+.endl {
+    position: relative;
+    height: 350px;
+    background-color: #f2f4f5;
+    display: flex;
+    justify-content: center;
+}
+.bottom-section {
+    width: 100%;
+}
+
+.link-gray {
+    width: 100%;
+    display: flex;
+    background-color: #f2f4f5;
+    border: 3px solid red;
+    justify-content: center;
+}
+.lhs {
+    width: 250px;
+}
+.lhs .link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 7px 0;
+    cursor: pointer;
+}
+.rhs {
+    width: 300px;
+}
+
+.rhs .post-first {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 7px 0;
+    cursor: pointer;
+}
+.unknown {
+    width: 1050px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 60px;
+}
+.google {
+    padding: 0 10px;
+    cursor: pointer;
+}
+.appstore{
+    cursor: pointer;
+}
